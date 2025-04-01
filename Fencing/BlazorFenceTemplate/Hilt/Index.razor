@@ -1,0 +1,26 @@
+﻿@using BlazorFenceTemplate.Sheath
+@using Microsoft.AspNetCore.Components.Web
+@using BlazorFenceTemplate.Hilt
+@using BlazorFenceTemplate.Hilt.HiltHeader
+@using BlazorFenceTemplate.Hilt.HiltContent
+@rendermode RenderMode.InteractiveWebAssembly
+@inject Sheaths S
+
+
+@code
+{
+    protected override void OnInitialized()
+    {
+        Sheaths.Ui += StateHasChanged;
+        Sheaths.Reload();
+    }
+}
+
+
+@page "/"
+
+<br/>
+<PageTitle>Training ground</PageTitle>
+
+<HiltHeader/>
+<HiltContent/>

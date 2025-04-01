@@ -1,0 +1,9 @@
+﻿@using BlazorFenceTemplate.Sheath
+@inherits BlazorFenceTemplate.Hilt.Index
+@inject Sheaths S
+
+
+<span>@Sheaths.W.Arsenal[0].LiterallyAsword</span>
+<span>@Sheaths.W.Arsenal[0].Handling</span>
+
+<button onclick="@(() => S.SWeapon.Unsheathe())">Move</button>
