@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Components;
-
-namespace BlazorFenceTemplate.Smith.Mold;
+﻿namespace Smithing.Mold;
 
 public interface MoldSword
 {

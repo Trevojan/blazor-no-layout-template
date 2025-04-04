@@ -20,4 +20,12 @@
       <_ContentIncludedByDefault Remove="Layout\MainLayout.razor" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Smith\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Smithing\Smithing.csproj" />
+    </ItemGroup>
+
 </Project>

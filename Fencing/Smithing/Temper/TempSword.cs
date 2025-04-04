@@ -1,8 +1,6 @@
-﻿using BlazorFenceTemplate.Sheath;
-using BlazorFenceTemplate.Smith.Shape;
-using BlazorFenceTemplate.Whetstone;
+﻿using Smithing.Shape;
 
-namespace BlazorFenceTemplate.Smith.Temper;
+namespace Smithing.Temper;
 
 public class TempSword : ShapeSword
 {

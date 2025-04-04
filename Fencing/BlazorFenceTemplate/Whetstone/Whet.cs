@@ -1,5 +1,6 @@
-﻿using BlazorFenceTemplate.Smith.Shape;
-using BlazorFenceTemplate.Smith.Temper;
+﻿using Smithing.Shape;
+using Smithing.Temper;
+
 
 namespace BlazorFenceTemplate.Whetstone;
 

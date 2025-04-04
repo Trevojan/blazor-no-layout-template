@@ -1,7 +1,6 @@
-﻿using BlazorFenceTemplate.Smith.Mold;
-using Microsoft.AspNetCore.Components;
+﻿using Smithing.Mold;
 
-namespace BlazorFenceTemplate.Smith.Shape;
+namespace Smithing.Shape;
 
 public class ShapeSword : MoldSword
 {
